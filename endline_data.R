@@ -2,9 +2,7 @@
 
 #Necessary libraries
 #install.packages("dplyr")
-#install.packages("stargazer")
 library(dplyr)
-library(stargazer)
 
 #Seed for reproduction
 set.seed(503)
