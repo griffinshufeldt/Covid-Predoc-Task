@@ -12,9 +12,9 @@ The age ranges and probabilities are sourced from Statistia, which has informati
 
 The state variable has probabilities depending on the population of the particular state, calculated by a state's population over the total population. 
 
-The US Census has data on race and ethnicity by state, using this, the Race variable has weights dependent on the individual's state that they, at this point, have already been assigned. Hispanic is defined in the same way, but as a seperate indicator variable. A random number is generated between 1 and 0, if it's greater than the percentage as a decimal of hispanic identifying people in a state, the observation is not hispanic, and vice versa. After this, we can drop the hispanic. The data I read in for Race and Hispanic identification can be found in this repository. 
+The US Census has data on race and ethnicity by state, using this, the Race variable has weights dependent on the individual's state that they, at this point, have already been assigned. Hispanic is defined in the same way, but as a seperate indicator variable. A random number is generated between 1 and 0, if it's greater than the percentage as a decimal of hispanic identifying people in a state, the observation is not hispanic, and vice versa. After this, we can drop the hispanic. The data I read in for Race and Hispanic identification can be found in this repository in the "Demographics" folder. 
 
-Party affiliation varies by state, from Pew Research Center I used data to assign party affiliation by an observations state. This dataset can also be found in this repository "affiliation.csv". Education is defined the same way.
+Party affiliation varies by state, from Pew Research Center I used data to assign party affiliation by an observations state. This dataset can also be found in this repository "affiliation.csv" in the Demographics folder. Education is defined the same way, same folder.
 
 I assigned vaccination status by party affiliation, with probabilities from the CDC's analysis on demographics: "Demographic Differences in Compliance with COVID-19 Vaccination Timing and Completion Guidelines in the United States". Among those who are vaccinated, they had their own probability of getting a booster shot.
 
