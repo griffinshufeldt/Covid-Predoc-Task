@@ -1,5 +1,5 @@
-# Covid-Predoc-Task
-Repository for the predoctoral data simulation exercise. 
+# Covid Data Simulation Exercise
+Repository for the data simulation exercise. Assigning those in treatment groups with different types of ads (emotional, logic, or none) to see impact on covid vaccination. 
 
 # Instructions For Reproduction
 
